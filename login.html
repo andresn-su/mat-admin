@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Sparrow Admin</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="src/style.css">
+    <style>
+        body{
+            background: url(https://images.unsplash.com/photo-1521080755838-d2311117f767?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=829&q=80);
+            background-size: cover;
+        }
+
+        button{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5 bg-white shadow login-form">
+        <div class="text-center mb-4">
+            <i class="fas fa-user-circle text-primary mb-4" style="font-size: 5rem;"></i>
+            <h2>Login</h2>
+        </div>
+        <!-- Form Login -->
+        <form action="index.html" class="mx-5">
+            <div class="form-outline mb-4">
+                <input type="email" id="email" class="form-control" />
+                <label class="form-label" for="email"><i class="fas fa-envelope"></i> Email address</label>
+            </div>
+            <div class="form-outline mb-4">
+                <input type="password" id="password" class="form-control" />
+                <label class="form-label" for="password"><i class="fas fa-lock"></i> Password</label>
+            </div>
+            <div class="form-outline mb-4 text-center">
+                <button class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Login</button><br>
+            </div>
+            <div class="form-outline mb-4 text-center">
+                <a href="index.html"><i class="fas fa-arrow-left"></i> Go back to the site</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="./node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"
+        integrity="sha256-uVEHWRIr846/vAdLJeybWxjPNStREzOlqLMXjW/Saeo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
