@@ -1,0 +1,97 @@
+/* FontAwesome */
+@import url('./../node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+/* MDBootstrap */
+@import url('./../node_modules/mdb-ui-kit/css/mdb.min.css');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(241, 241, 241);
+}
+
+.img-profile{
+    min-width: 100%;
+    min-height: 100px;
+}
+
+.img{
+    min-width: 100%;
+    min-height: 100px;
+    background: url(https://picsum.photos/200/300);
+    background-size: cover;
+}
+
+.content{
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.navbar-admin{
+    min-height: 100vh;
+}
+
+.nav .list-group-item{
+    border-color: transparent !important;
+}
+
+.home-analysis i{
+    font-size: 70px;
+    color: #0099ff;
+}
+
+.home-analysis .item{
+    vertical-align: middle;
+    align-items: center;
+}
+
+.home-analysis .item{
+    border-bottom: solid transparent 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home-analysis .item:hover{
+    border-bottom: solid #0099ff 5px;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: solid lightgray 1px;
+    border-left: solid #0099ff 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.bg-footer{
+    background-color: #0a5283;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    color: lightskyblue;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: lightskyblue;
+}
+
+.error-code{
+    font-size: 9rem;
+    text-shadow: 0.05em 0.05em 0.2em rgb(179, 179, 179);
+}
+
+.login-form{
+    min-width: 300px;
+    max-width: 380px;
+    border-left: solid #0099ff 15px;
+    justify-items: center;
+    margin-top: 50px;
+}
